@@ -25,7 +25,7 @@ require.config({
                 require(['regexper'], function(Regexper) {
                     Regexper.draw(paper_container, JSON.parse(text), function() {
                         document.body.className = 'has-results';
-                        console.log("DONE");
+                        //console.log("DONE");
                     });
                 });
             } else {
