@@ -45,7 +45,7 @@ define(['regexper', 'regexper/base'], function(Regexper, Base) {
                     } else if (start > 0) {
                         loop_desc = start + '...' + stop;
                     } else {
-                        loop_desc = 'upto ' + stop + ' times';
+                        loop_desc = '<= ' + stop + ' times';
                     }
                 }
             } else {
